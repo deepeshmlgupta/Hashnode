@@ -3,6 +3,7 @@ title: "Introduction to DevOps"
 datePublished: Sun Mar 24 2024 14:10:52 GMT+0000 (Coordinated Universal Time)
 cuid: clu5lk0do000009l27yzp6bge
 slug: devops
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711291636624/aaa007cd-cb6c-4971-946d-dbead0f4162c.jpeg
 tags: developer, devops, career, deepeshmlgupta
 
 ---
