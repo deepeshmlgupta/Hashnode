@@ -1,7 +1,7 @@
 ---
 title: "Basics Linux Commands, 
 Part 2"
-seoTitle: "Linux Commands "
+seoTitle: "Linux Commands"
 seoDescription: "Commands helpful for Linux Operating system"
 datePublished: Tue Apr 02 2024 14:49:34 GMT+0000 (Coordinated Universal Time)
 cuid: cluihwfxz000108jw4xs97pqb
@@ -53,7 +53,7 @@ rm -r <directory-name>
 
 Here, -r means recursively, Or, it is used to delete the directory which consits of files inside it
 
-## **Command to create a fruits.txt file and to view the content?**
+## **Command to create a color.txt file and to view the content?**
 
 To create a file "touch" command is used,
 
@@ -71,7 +71,7 @@ cat <filename>
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689571098498/3ff222ab-42ff-4d03-a147-57afcb2fa087.png?auto=compress,format&format=webp align="center")
 
-## **Command to Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.**
+## **Command to Add content in color1.txt**
 
 First create a file with "touch" command,
 
@@ -102,8 +102,6 @@ In the above command, the "head" command gives us first part of a file.
 \-3, --shows the top 3 lines of a file.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1712066256905/e43b9848-c0ef-4435-a1ec-cdd4dd4bee21.png align="center")
-
-  
 
 ## **Command to Show only bottom three fruits from the file.**
 
