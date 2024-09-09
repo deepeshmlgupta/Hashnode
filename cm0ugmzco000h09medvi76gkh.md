@@ -5,6 +5,7 @@ seoDescription: "Explore 15 must-know AWS tools for DevOps engineers with expert
 datePublished: Mon Sep 09 2024 03:45:41 GMT+0000 (Coordinated Universal Time)
 cuid: cm0ugmzco000h09medvi76gkh
 slug: top-aws-tools
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725853603279/f5704340-1809-4d85-b13e-ecfa23bb0ff8.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1725853516792/96a4be42-deb0-4700-b448-460211c26517.jpeg
 tags: aws, devops, aws-devops, deepeshmlgupta, top-aws-services-for-devops-engineers
 
