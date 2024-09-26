@@ -89,10 +89,6 @@ After adding content to the file press ctrl+x and y to save the file
 
 ## **Command to show only top three fruits from the file?**
 
-**COPY**
-
-**COPY**
-
 ```plaintext
 head -3 <filename>
 ```
