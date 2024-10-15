@@ -1,10 +1,11 @@
 ---
 title: "Setting Up Jenkins & Creating Your First Pipeline😃"
 seoTitle: "How to Set Up Jenkins and Create Your First Pipeline | Step-by-Step Gu"
-seoDescription: "Learn how to set up Jenkins and create your first pipeline in this comprehensive guide by Deepesh Gupta. Enhance your DevOps skills and automate your CI/CD "
+seoDescription: "Learn how to set up Jenkins and create your first pipeline in this comprehensive guide by Deepesh Gupta. Enhance your DevOps skills and automate your CI/CD"
 datePublished: Tue Oct 15 2024 17:23:06 GMT+0000 (Coordinated Universal Time)
 cuid: cm2apouhr000408mm5vohd10e
 slug: jenkins-installation
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729013045498/b9decc8a-370f-4271-a941-bd9bcdd70ba2.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1729012790515/11519552-cd4a-4341-b1b5-d740a5d2a397.png
 tags: devops, jenkins, jenkins-devops, devops-journey, jenkins-installation, devopscommunity, deepeshmlgupta
 
