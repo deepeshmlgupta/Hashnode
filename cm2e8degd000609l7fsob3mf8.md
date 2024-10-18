@@ -4,6 +4,7 @@ datePublished: Fri Oct 18 2024 04:29:23 GMT+0000 (Coordinated Universal Time)
 cuid: cm2e8degd000609l7fsob3mf8
 slug: jenkins-freestyle-project
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729225456177/d3fd746a-cf43-4733-bf86-9f12438654f2.png
+tags: docker, devops, jenkins, jenkins-devops, jenkins-pipeline, deepeshmlgupta
 
 ---
 
@@ -11,29 +12,67 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1729225456177/d3fd746
 
 ![Day 25: Jenkins Freestyle Project for DevOps Engineers](https://cdn.hashnode.com/res/hashnode/image/upload/v1723798504766/f3177df5-bfc1-4498-9c22-c6e820a0297d.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp align="left")
 
-### **What Is a Build Job?**
+### **Understanding a Build Job?**
 
-A Jenkins build job contains the configuration for automating specific tasks or steps in the application building process. These tasks include gathering dependencies, compiling, archiving, transforming code, testing, and deploying code in different environments.
+A Jenkins build job defines the configuration required to automate specific tasks within the application build process. These tasks typically include:
 
-Jenkins supports several types of build jobs, such as freestyle projects, pipelines, multi-configuration projects, folders, multibranch pipelines, and organization folders.
+* Gathering dependencies
+    
+* Compiling and archiving code
+    
+* Transforming source code
+    
+* Running tests
+    
+* Deploying to various environments
+    
+
+Jenkins provides multiple types of build jobs, such as:
+
+* Freestyle projects
+    
+* Pipelines
+    
+* Multi-configuration projects
+    
+* Folders
+    
+* Multibranch pipelines
+    
+* Organization folders
+    
 
 ### What is a Freestyle Project? 🤔
 
-A freestyle project in Jenkins is a type of project that allows you to build, test, and deploy software using various options and configurations. Here are a few tasks you could complete with a freestyle project in Jenkins:
+A freestyle project in Jenkins is a flexible option for building, testing, and deploying software. It allows for different configurations and steps to be executed. Here's an example of what you can achieve with a freestyle project.
 
 ### Tasks:
 
 #### **Task1: Creating Jenkins Freestyle Project**
 
-* **Create an agent for your app:** A agent should be configured for your job to run successfully.
+* **Set up an agent**: Make sure to configure an agent where your job will run.
     
-* **Create a new Jenkins freestyle project for your app:** Once you are on Jenkins Dashboard as shown in Previous blog, Navigate as follows: New Item -&gt; Freestyle Project -&gt; Give it a name -&gt; Create
+* **Create a new freestyle project**:
     
-* **Build Step Section:** Scroll down to this section and select execute shell and write commands as below to build and run a docker container. Below `cd /home/ubuntu/django-notes-app` is the path where my project is already cloned from GitHub on my node which I will use to run this job on.
+    * From the Jenkins Dashboard, navigate to:  
+        **New Item** → **Freestyle Project** → Enter a project name → **Create**.
+        
+* **Configure the build step**:
     
-    ***Note:*** docker should already be installed on the agent where this job will run.
-    
-    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723797319415/8618f873-5531-4ef5-a940-cd41e85da710.jpeg?auto=compress,format&format=webp align="left")
+    * Scroll to the "Build" section.
+        
+    * Choose the **Execute Shell** option.
+        
+    * Enter the following commands to build and run a Docker container:
+        
+        ```plaintext
+        cd /home/ubuntu/django-notes-app  # Path where the project is cloned
+        docker build -t my-app .
+        docker run -d -p 8080:8080 my-app
+        ```
+        
+
+* ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1723797319415/8618f873-5531-4ef5-a940-cd41e85da710.jpeg?auto=compress,format&format=webp align="left")
     
 * As seen below we have the Console Output and Stage output (Build no. 11) which shows that our project ran successfully.
     
