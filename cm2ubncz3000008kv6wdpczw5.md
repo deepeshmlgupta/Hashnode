@@ -5,6 +5,7 @@ seoDescription: "Master Jenkins Declarative Pipeline with Docker to automate CI/
 datePublished: Tue Oct 29 2024 10:45:25 GMT+0000 (Coordinated Universal Time)
 cuid: cm2ubncz3000008kv6wdpczw5
 slug: jenkins-declarative-pipeline
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730198753890/757ee142-83c0-4481-b3de-45597145b91a.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1730197802065/8dbcd48a-f08a-4aae-8f2e-730c7a475c45.png
 tags: docker, devops, jenkins, devops-articles, jenkins-devops, devops-jenkins-docker-integration-cicd, jenkins-on-ubuntu, deepeshmlgupta
 
